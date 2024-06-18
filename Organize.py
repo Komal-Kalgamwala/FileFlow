@@ -21,7 +21,7 @@ def organize_files(source_dir, destination_dir):
                 print(f"Moved '{filename}' to '{destination_subdir}'")
 
 if __name__ == "__main__":
-    source_directory = r"C:\Users\kkalg\OneDrive\Desktop\Komal Kalgamwala\Source"  # Replace with the source directory path
-    destination_directory = r"C:\Users\kkalg\OneDrive\Desktop\Komal Kalgamwala\Destination"  # Replace with the destination directory path
+    source_directory = r"C:\Users\Source"  # Replace with the source directory path
+    destination_directory = r"C:\Users\Destination"  # Replace with the destination directory path
     
     organize_files(source_directory, destination_directory)
